@@ -1,0 +1,2 @@
+Module-Name: flowFrameWork.core.model
+Spring-Parent: flowFrameWork.common.dal

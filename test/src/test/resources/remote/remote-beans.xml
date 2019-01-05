@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+       default-autowire="byName">
+
+	<!--
+	add your ws service interface reference like this
+	<sofa:reference id="atsDemoInterface" interface="com.alipay.demo.service.AtsDemoInterface">
+		<sofa:binding.ws testURL="${atsdemo_service_url}">
+			<compatible>
+				<vip>${atsdemo_service_url}</vip>
+			</compatible>
+		</sofa:binding.ws>
+	</sofa:reference>
+	add your tr service interface reference like this
+	<sofa:reference id="tradeBaseQueryFacade" interface="com.alipay.tradequery.common.service.facade.TradeBaseQueryFacade" 
+	jvm-service="true" uniqueId="tradequeryprod">
+		<sofa:binding.tr testURL="tradequeryprod.stable.alipay.net:12200?_TIMEOUT=5000">
+			<compatible>
+				<vip>tradequeryprod.stable.alipay.net:12200</vip>
+			</compatible>
+		</sofa:binding.tr>
+	</sofa:reference>-->
+</beans>
